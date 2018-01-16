@@ -27,4 +27,5 @@ result.pkgcolls.each {
 
 println result.inspect()
 
-
+def map = [name: "Pushkin", aliases: ['P', 'Push']]
+println yaml.dump(map)
